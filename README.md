@@ -8,7 +8,7 @@ Você pode encontrar o repositório do Box Engine [aqui](https://github.com/Rodr
 
 O jogo conta com duas fases, enfrenta a frota inimiga e por fim ao chamar anteção suficiente, enfrentar o chefe do jogo.
 
-Disponivel em 5 dificuldades (Rookie, Wingman, Veteran, Ace and God)
+Disponível em 5 dificuldades (Rookie, Wingman, Veteran, Ace and God)
 
 # Show Case
 
