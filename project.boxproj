@@ -1,0 +1,1153 @@
+{
+  "debug": {
+    "autoLogGLFWErrors": true,
+    "autoLogOpenGLErrors": false,
+    "enableGlfwDebugging": true,
+    "enableOpenGLDebugging": true,
+    "openglSeverities": [
+      33387,
+      37190,
+      37191,
+      37192
+    ]
+  },
+  "logging": {
+    "logCallback": true,
+    "logConsole": false,
+    "logFile": false
+  },
+  "project_name": "Air Fighter",
+  "scene": [
+    {
+      "active": true,
+      "childrens": [],
+      "id": "12f9b466-6",
+      "mode": 0,
+      "name": "begin_frame",
+      "scripts": [
+        {
+          "active": true,
+          "data": [],
+          "mode": 0,
+          "name": "begin_frame"
+        }
+      ]
+    },
+    {
+      "active": true,
+      "childrens": [
+        {
+          "active": true,
+          "childrens": [],
+          "id": "b6539016-c",
+          "mode": 0,
+          "name": "menu",
+          "scripts": [
+            {
+              "active": true,
+              "data": [],
+              "mode": 0,
+              "name": "menu"
+            }
+          ]
+        },
+        {
+          "active": false,
+          "childrens": [
+            {
+              "active": true,
+              "childrens": [],
+              "id": "1c10d8f8-c",
+              "mode": 0,
+              "name": "asset_provider",
+              "scripts": [
+                {
+                  "active": true,
+                  "data": [],
+                  "mode": 0,
+                  "name": "asset_provider"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "childrens": [],
+              "id": "7f9b5b24-4",
+              "mode": 0,
+              "name": "ocean",
+              "scripts": [
+                {
+                  "active": true,
+                  "data": [],
+                  "mode": 0,
+                  "name": "ocean"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "childrens": [
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "6618e831-e",
+                  "mode": 0,
+                  "name": "plataform",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "plataform.png"
+                        },
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "500.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "300.000000"
+                        },
+                        {
+                          "name": "rotation",
+                          "type": 1,
+                          "value": "0"
+                        },
+                        {
+                          "name": "y_fade_multiplier",
+                          "type": 1,
+                          "value": "2000.000000"
+                        },
+                        {
+                          "name": "min_y_fade",
+                          "type": 1,
+                          "value": "3000.000000"
+                        },
+                        {
+                          "name": "velocity",
+                          "type": 1,
+                          "value": "0.166667"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "props"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "351336f6-b",
+                  "mode": 0,
+                  "name": "lancha",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "lancha.png"
+                        },
+                        {
+                          "name": "max_vel",
+                          "type": 1,
+                          "value": "0.300000"
+                        },
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "180.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "110.000000"
+                        },
+                        {
+                          "name": "rotation",
+                          "type": 1,
+                          "value": "180.000000"
+                        },
+                        {
+                          "name": "min_y_fade",
+                          "type": 1,
+                          "value": "5000.000000"
+                        },
+                        {
+                          "name": "y_fade_multiplier",
+                          "type": 1,
+                          "value": "10000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "props"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "63d301d9-3",
+                  "mode": 0,
+                  "name": "navy",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "navy.png"
+                        },
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "200.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "300.000000"
+                        },
+                        {
+                          "name": "rotation",
+                          "type": 1,
+                          "value": "180.000000"
+                        },
+                        {
+                          "name": "y_fade_multiplier",
+                          "type": 1,
+                          "value": "1000.000000"
+                        },
+                        {
+                          "name": "min_y_fade",
+                          "type": 1,
+                          "value": "9000.000000"
+                        },
+                        {
+                          "name": "velocity",
+                          "type": 1,
+                          "value": "0.166667"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "props"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "0ce62f13-a",
+                  "mode": 0,
+                  "name": "island1",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "island1.png"
+                        },
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "1500.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "900.000000"
+                        },
+                        {
+                          "name": "rotation",
+                          "type": 1,
+                          "value": "0"
+                        },
+                        {
+                          "name": "velocity",
+                          "type": 1,
+                          "value": "0.166667"
+                        },
+                        {
+                          "name": "y_fade_multiplier",
+                          "type": 1,
+                          "value": "8000.000000"
+                        },
+                        {
+                          "name": "min_y_fade",
+                          "type": 1,
+                          "value": "4000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "props"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "15c4e16e-5",
+                  "mode": 0,
+                  "name": "island2",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "island2.png"
+                        },
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "1500.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "900.000000"
+                        },
+                        {
+                          "name": "rotation",
+                          "type": 1,
+                          "value": "0"
+                        },
+                        {
+                          "name": "velocity",
+                          "type": 1,
+                          "value": "0.166667"
+                        },
+                        {
+                          "name": "y_fade_multiplier",
+                          "type": 1,
+                          "value": "5000.000000"
+                        },
+                        {
+                          "name": "min_y_fade",
+                          "type": 1,
+                          "value": "5000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "props"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "20a1f494-d",
+                  "mode": 0,
+                  "name": "island3",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "island3.png"
+                        },
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "1500.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "900.000000"
+                        },
+                        {
+                          "name": "rotation",
+                          "type": 1,
+                          "value": "0"
+                        },
+                        {
+                          "name": "velocity",
+                          "type": 1,
+                          "value": "0.166667"
+                        },
+                        {
+                          "name": "y_fade_multiplier",
+                          "type": 1,
+                          "value": "3000.000000"
+                        },
+                        {
+                          "name": "min_y_fade",
+                          "type": 1,
+                          "value": "10000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "props"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "c011fc33-a",
+                  "mode": 0,
+                  "name": "civil_airplane",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "civil_airplane.png"
+                        },
+                        {
+                          "name": "max_vel",
+                          "type": 1,
+                          "value": "1.000000"
+                        },
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "220.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "220.000000"
+                        },
+                        {
+                          "name": "rotation",
+                          "type": 1,
+                          "value": "90.000000"
+                        },
+                        {
+                          "name": "min_y_fade",
+                          "type": 1,
+                          "value": "20000.000000"
+                        },
+                        {
+                          "name": "y_fade_multiplier",
+                          "type": 1,
+                          "value": "10000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "props"
+                    }
+                  ]
+                }
+              ],
+              "id": "371805d3-2",
+              "mode": 0,
+              "name": "props",
+              "scripts": []
+            },
+            {
+              "active": true,
+              "childrens": [
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "674c7263-5",
+                  "mode": 0,
+                  "name": "cloud",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "cloud1.png"
+                        },
+                        {
+                          "name": "x",
+                          "type": 1,
+                          "value": "0"
+                        },
+                        {
+                          "name": "y",
+                          "type": 1,
+                          "value": "17000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "clouds"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "9ee4739f-2",
+                  "mode": 0,
+                  "name": "cloud",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "cloud1.png"
+                        },
+                        {
+                          "name": "x",
+                          "type": 1,
+                          "value": "-100.000000"
+                        },
+                        {
+                          "name": "y",
+                          "type": 1,
+                          "value": "23000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "clouds"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "340b79b9-2",
+                  "mode": 0,
+                  "name": "cloud",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "cloud2.png"
+                        },
+                        {
+                          "name": "x",
+                          "type": 1,
+                          "value": "0"
+                        },
+                        {
+                          "name": "y",
+                          "type": 1,
+                          "value": "5000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "clouds"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "bdef6088-0",
+                  "mode": 0,
+                  "name": "cloud",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "cloud1.png"
+                        },
+                        {
+                          "name": "x",
+                          "type": 1,
+                          "value": "-100.000000"
+                        },
+                        {
+                          "name": "y",
+                          "type": 1,
+                          "value": "3000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "clouds"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "0a855391-4",
+                  "mode": 0,
+                  "name": "cloud",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "cloud2.png"
+                        },
+                        {
+                          "name": "x",
+                          "type": 1,
+                          "value": "0"
+                        },
+                        {
+                          "name": "y",
+                          "type": 1,
+                          "value": "8000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "clouds"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "8ef7d7f3-3",
+                  "mode": 0,
+                  "name": "cloud",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "cloud2.png"
+                        },
+                        {
+                          "name": "x",
+                          "type": 1,
+                          "value": "0"
+                        },
+                        {
+                          "name": "y",
+                          "type": 1,
+                          "value": "21000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "clouds"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "e1b887ae-a",
+                  "mode": 0,
+                  "name": "cloud",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "cloud2.png"
+                        },
+                        {
+                          "name": "x",
+                          "type": 1,
+                          "value": "0"
+                        },
+                        {
+                          "name": "y",
+                          "type": 1,
+                          "value": "20000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "clouds"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "97209073-3",
+                  "mode": 0,
+                  "name": "cloud",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "path",
+                          "type": 2,
+                          "value": "cloud2.png"
+                        },
+                        {
+                          "name": "x",
+                          "type": 1,
+                          "value": "0"
+                        },
+                        {
+                          "name": "y",
+                          "type": 1,
+                          "value": "25000.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "clouds"
+                    }
+                  ]
+                }
+              ],
+              "id": "f329c13f-2",
+              "mode": 0,
+              "name": "clouds",
+              "scripts": []
+            },
+            {
+              "active": true,
+              "childrens": [],
+              "id": "694a1a79-d",
+              "mode": 0,
+              "name": "controller",
+              "scripts": [
+                {
+                  "active": true,
+                  "data": [
+                    {
+                      "name": "spawn_boss",
+                      "type": 3,
+                      "value": "0"
+                    },
+                    {
+                      "name": "enemy_spawn_interval",
+                      "type": 1,
+                      "value": "2.000000"
+                    },
+                    {
+                      "name": "decrease_enemy_spawn_interval",
+                      "type": 1,
+                      "value": "0.070000"
+                    },
+                    {
+                      "name": "enemy_vel_x",
+                      "type": 1,
+                      "value": "0.050000"
+                    },
+                    {
+                      "name": "increase_enemy_vel_x",
+                      "type": 1,
+                      "value": "0.010000"
+                    },
+                    {
+                      "name": "enemy_vel_y",
+                      "type": 1,
+                      "value": "0.200000"
+                    },
+                    {
+                      "name": "increase_enemy_vel_y",
+                      "type": 1,
+                      "value": "0.020000"
+                    },
+                    {
+                      "name": "enemy_fire_rate",
+                      "type": 1,
+                      "value": "0.600000"
+                    },
+                    {
+                      "name": "increase_enemy_fire_rate",
+                      "type": 1,
+                      "value": "0.030000"
+                    },
+                    {
+                      "name": "enemy_interval_of_fire",
+                      "type": 1,
+                      "value": "1.000000"
+                    },
+                    {
+                      "name": "increase_enemy_interval_of_fire",
+                      "type": 1,
+                      "value": "0.050000"
+                    },
+                    {
+                      "name": "enemy_life",
+                      "type": 1,
+                      "value": "2.000000"
+                    },
+                    {
+                      "name": "increase_enemy_life",
+                      "type": 1,
+                      "value": "0.400000"
+                    },
+                    {
+                      "name": "enemy_fire_vel",
+                      "type": 1,
+                      "value": "1.000000"
+                    },
+                    {
+                      "name": "increase_enemy_fire_vel",
+                      "type": 1,
+                      "value": "0.100000"
+                    },
+                    {
+                      "name": "points",
+                      "type": 1,
+                      "value": "0"
+                    },
+                    {
+                      "name": "points_increase_difficulty",
+                      "type": 1,
+                      "value": "900.000000"
+                    },
+                    {
+                      "name": "kill_points",
+                      "type": 1,
+                      "value": "200.000000"
+                    },
+                    {
+                      "name": "boss_life",
+                      "type": 1,
+                      "value": "400.000000"
+                    },
+                    {
+                      "name": "boss_interval_of_fire",
+                      "type": 1,
+                      "value": "1.100000"
+                    },
+                    {
+                      "name": "boss_fire_rate",
+                      "type": 1,
+                      "value": "0.450000"
+                    },
+                    {
+                      "name": "boss_interval_of_fire_special",
+                      "type": 1,
+                      "value": "0.500000"
+                    },
+                    {
+                      "name": "boss_fire_rate_special",
+                      "type": 1,
+                      "value": "0.800000"
+                    },
+                    {
+                      "name": "boss_interval_of_fire_rage",
+                      "type": 1,
+                      "value": "0.700000"
+                    },
+                    {
+                      "name": "boss_fire_number",
+                      "type": 1,
+                      "value": "5.000000"
+                    },
+                    {
+                      "name": "boss_fire_rate_rage",
+                      "type": 1,
+                      "value": "0.400000"
+                    },
+                    {
+                      "name": "immune_time",
+                      "type": 1,
+                      "value": "4.000000"
+                    }
+                  ],
+                  "mode": 0,
+                  "name": "controller"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "childrens": [],
+              "id": "5ba84dea-b",
+              "mode": 0,
+              "name": "fighter",
+              "scripts": [
+                {
+                  "active": true,
+                  "data": [],
+                  "mode": 0,
+                  "name": "fighter"
+                }
+              ]
+            },
+            {
+              "active": false,
+              "childrens": [],
+              "id": "fcc0f32c-1",
+              "mode": 0,
+              "name": "boss",
+              "scripts": [
+                {
+                  "active": true,
+                  "data": [],
+                  "mode": 0,
+                  "name": "boss"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "childrens": [
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "e24537a6-9",
+                  "mode": 0,
+                  "name": "explosions",
+                  "scripts": []
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "d3de6706-0",
+                  "mode": 0,
+                  "name": "fighter_fires",
+                  "scripts": []
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "5fee7316-8",
+                  "mode": 0,
+                  "name": "enemy_fires",
+                  "scripts": []
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "7ff63335-f",
+                  "mode": 0,
+                  "name": "boss_fires",
+                  "scripts": []
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "f9cd1b94-6",
+                  "mode": 0,
+                  "name": "enemies",
+                  "scripts": []
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "f69aaed9-3",
+                  "mode": 0,
+                  "name": "lifes",
+                  "scripts": []
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "d49b5b7d-7",
+                  "mode": 0,
+                  "name": "damages",
+                  "scripts": []
+                }
+              ],
+              "id": "ee9e9258-5",
+              "mode": 0,
+              "name": "instances",
+              "scripts": []
+            },
+            {
+              "active": false,
+              "childrens": [
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "bf1f3c15-a",
+                  "mode": 0,
+                  "name": "fire_prefab",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "50.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "50.000000"
+                        },
+                        {
+                          "name": "vel",
+                          "type": 1,
+                          "value": "1.800000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "fire"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "de0fdaf7-d",
+                  "mode": 0,
+                  "name": "enemy_fire_prefab",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "50.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "50.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "enemy_fire"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "9900d1ea-b",
+                  "mode": 0,
+                  "name": "enemy_prefab",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [],
+                      "mode": 0,
+                      "name": "enemy"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "77450af0-e",
+                  "mode": 0,
+                  "name": "explosion_prefab",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "200.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "200.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "explosion"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "7181ace4-9",
+                  "mode": 0,
+                  "name": "life_prefab",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [],
+                      "mode": 0,
+                      "name": "life"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "7d2fd8dd-c",
+                  "mode": 0,
+                  "name": "damage_prefab",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [],
+                      "mode": 0,
+                      "name": "damage"
+                    }
+                  ]
+                },
+                {
+                  "active": true,
+                  "childrens": [],
+                  "id": "25e231af-8",
+                  "mode": 0,
+                  "name": "boss_fire_prefab",
+                  "scripts": [
+                    {
+                      "active": true,
+                      "data": [
+                        {
+                          "name": "size_x",
+                          "type": 1,
+                          "value": "30.000000"
+                        },
+                        {
+                          "name": "size_y",
+                          "type": 1,
+                          "value": "30.000000"
+                        }
+                      ],
+                      "mode": 0,
+                      "name": "boss_fire"
+                    }
+                  ]
+                }
+              ],
+              "id": "0336077f-6",
+              "mode": 0,
+              "name": "prefabs",
+              "scripts": []
+            }
+          ],
+          "id": "b155cc44-d",
+          "mode": 0,
+          "name": "game",
+          "scripts": []
+        }
+      ],
+      "id": "0f2489b2-0",
+      "mode": 0,
+      "name": "scene",
+      "scripts": []
+    },
+    {
+      "active": true,
+      "childrens": [],
+      "id": "4951cfa6-1",
+      "mode": 0,
+      "name": "end_frame",
+      "scripts": [
+        {
+          "active": true,
+          "data": [
+            {
+              "name": "begin_id",
+              "type": 2,
+              "value": "12f9b466-6"
+            }
+          ],
+          "mode": 0,
+          "name": "end_frame"
+        }
+      ]
+    }
+  ]
+}
