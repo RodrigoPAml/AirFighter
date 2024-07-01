@@ -217,19 +217,23 @@ function fighter.control()
 
     local up_input = engine.input.get_key(engine.enums.keyboard_key.up)
     local down_input = engine.input.get_key(engine.enums.keyboard_key.down)
+    local up_input2 = engine.input.get_key(engine.enums.keyboard_key.W)
+    local down_input2 = engine.input.get_key(engine.enums.keyboard_key.S)
 
     -- movimento para frente e para tras
-    if ((up_input == engine.enums.input_action.press) and limited_ymax == false) then
+    if ((up_input == engine.enums.input_action.press or up_input2 == engine.enums.input_action.press) and limited_ymax == false) then
         this.y = this.y + engine.get_frametime()
-    elseif ((down_input == engine.enums.input_action.press) and limited_ymin == false) then
+    elseif ((down_input == engine.enums.input_action.press or down_input2 == engine.enums.input_action.press) and limited_ymin == false) then
         this.y = this.y - engine.get_frametime()
     end
 
     local left_input = engine.input.get_key(engine.enums.keyboard_key.left)
     local right_input = engine.input.get_key(engine.enums.keyboard_key.right)
+    local left_input2 = engine.input.get_key(engine.enums.keyboard_key.A)
+    local right_input2 = engine.input.get_key(engine.enums.keyboard_key.D)
 
     -- movimento para esquerda e direita
-    if ((left_input == engine.enums.input_action.press) and limited_xmax == false) then
+    if ((left_input == engine.enums.input_action.press or left_input2 == engine.enums.input_action.press) and limited_xmax == false) then
         this.x = this.x - engine.get_frametime()
 
         if (this._should_draw) then
@@ -239,7 +243,7 @@ function fighter.control()
                 texture_id = this._texture_left,
             })
         end
-    elseif ((right_input == engine.enums.input_action.press) and limited_xmin == false) then
+    elseif ((right_input == engine.enums.input_action.press or right_input2 == engine.enums.input_action.press) and limited_xmin == false) then
         this.x = this.x + engine.get_frametime()
 
         if (this._should_draw) then
